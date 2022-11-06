@@ -12,8 +12,6 @@ export default function() {
         'status was 200': (r) => r.status == 200,
         'email': (r) => r.json().data.email == 'janet.weaver@reqres.in',
     })
-    console.log(res.json().data.email)
-    
-    
+    console.log(res.json().data.email)    
 };
 
